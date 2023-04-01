@@ -1,0 +1,139 @@
+
+#h{
+    background-color: white;
+    height: 15px;
+    width: 350px;
+    padding: 20px;
+    border: 2px;
+    border-style: solid;
+    border-color: orangered;
+    margin: auto;
+    font-family: "Lucida Sans";
+    font-size:20px;
+}
+#sub
+{
+    font-size:12px;
+}
+header{
+    text-align:center;
+    background-color:#050A30;
+    padding: 10px;
+    color: black;
+    
+}
+
+#mid
+{
+    font-size:50px;
+    margin-left: 160px;
+}
+
+
+.client
+{
+    padding-bottom: 20px;
+    font-family: Calibri;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+
+
+.one
+{
+    padding-top: 20px;
+    padding-left: 10px;
+    display: flex;
+    padding-bottom: 30px;
+    border-bottom: 2px solid grey;
+}
+
+.b1
+{
+    
+    color: white;
+    padding: 15px 30px;
+    background-color: orangered;
+    border: 0px;
+    box-shadow: 0px 3px 5px grey;
+}
+
+#t1
+{
+   
+    padding-left: 50px;
+}
+
+
+
+.two
+{
+    padding-top: 20px;
+    padding-left: 10px;
+    display: flex;
+    padding-bottom: 30px;
+    border-bottom: 2px solid grey;
+}
+
+.b2
+{
+    
+    color: white;
+    padding: 15px 30px;
+    background-color: orangered;
+    border: 0px;
+    box-shadow: 0px 3px 5px grey;
+}
+
+#t2
+{
+   
+    padding-left: 50px;
+}
+
+
+
+.three
+{
+    padding-top: 20px;
+    padding-left: 10px;
+    display: flex;
+    padding-bottom: 30px;
+    border-bottom: 2px solid grey;
+}
+
+.b3
+{
+    
+    color: white;
+    padding: 15px 30px;
+    background-color: orangered;
+    border: 0px;
+    box-shadow: 0px 3px 5px grey;
+}
+
+#t3
+{
+   
+    padding-left: 50px;
+}
+
+.subs
+{
+    background-color: black;
+    color: white;
+}
+
+@media only screen and (max-width: 900px)
+{
+    .one, .two, .three
+    {
+        display: block;
+    }
+
+    #t1, #t2, #t3
+    {
+        padding-left: 10px;
+    }
+}
